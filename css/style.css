@@ -1,0 +1,1950 @@
+@font-face {
+    font-family: koulen;
+    src: url(../fonts/Koulen-Regular.ttf);
+}
+@font-face {
+    font-family: abel;
+    src: url(../fonts/Abel-Regular.ttf);
+}
+@media(min-width:1200px){
+*{
+    margin: 0;
+    padding: 0;
+}
+.process_button{
+    width: 10rem;
+    height: 4rem;
+    border: #fff solid;
+    background-color:#525151;
+    color: #fff;
+    font-family:"koulen" ;
+}
+.process_button:hover{
+   background-color: #CA8728;
+}
+.process_button a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 1rem;
+    font-size: 0.8rem;
+}
+.baksProcess_container{
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+.baks_imgText_container{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    background-color: #3E3E3E;
+}
+.baksFirst_container img{
+    width:35rem;
+}
+.baksFirst_container div h2{
+    color: #fff;
+    font-size: 4.5rem
+}
+.baksFirst_container div p{
+    color: #fff;
+    font-size: 0.9rem;
+}
+.baksProcess_container h1{
+    font-size: 5.5rem
+}
+
+
+.letsTalk_section{
+    width: 100%;
+    height: 72vh;
+    overflow: hidden;
+}
+.letsTalk_section div{
+    width: 25rem;
+    height: 22rem;
+    background-color: #3E3E3E;
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem 1rem #525151;
+    
+}
+.linkin a img{
+    width: 6rem;
+}
+.instagram a img{
+    width: 8rem;
+}
+.gMail a img{
+    width: 8rem;
+}
+.gMail a img:hover{
+    width: 9rem;
+    
+}
+.gMail:hover{
+    box-shadow: 1rem 1rem 1rem #CA8728;
+    width: 26rem;
+    height: 23rem;
+    
+}
+.instagram a img:hover{
+    width: 9rem;
+    
+}
+.instagram:hover{
+    box-shadow: 1rem 1rem 1rem #CA8728;
+    width: 26rem;
+    height: 23rem;
+    
+}
+.linkin a img:hover{
+    width: 9rem;
+    
+}
+.linkin:hover{
+    box-shadow: 1rem 1rem 1rem #CA8728;
+    width: 26rem;
+    height: 23rem;
+    
+}
+.burger-menu {
+    display: none; 
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #3E3E3E;
+    margin: 6px 0;
+}
+.burger-menu {
+    display: none; 
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #3E3E3E;
+    margin: 6px 0;
+}
+/* navbar css */
+.logo{
+    width: 30%;
+}
+li a{
+    font-family: "koulen";
+    text-decoration: none;
+    color: #3E3E3E;
+    font-size: 1.5rem;
+    text-shadow: 0.3rem 0.3rem 0.3rem #797979;
+    
+}
+li{
+    list-style-type: none;
+    padding-right: 1.5rem;
+    
+    
+
+}
+
+.talk_link{
+    border: solid #3E3E3E 0.3rem;
+    border-radius: 20em;
+    position: relative;
+    bottom: 1vh;
+    
+    background-color: #3E3E3E ;
+    
+
+   
+}
+.talk_link a{
+    color: #fff;
+    position: relative;
+    left: 0.7vw;
+}
+/* front page introduction style */
+.frontPage_section{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  
+}
+.frontPage_h1 h1{
+    font-size: 5.5rem;
+    letter-spacing: 0.9rem;
+    
+}
+
+.scrollTekst h2{
+    font-size: 5.5rem;
+    bottom: 2vh;
+    letter-spacing: 0.9rem;
+    transform: rotate(90deg);
+    white-space: nowrap;
+}
+.andreasBeige{
+    width: 30%;
+}
+.andreasBlue{
+    width: 20%;
+}
+.andreasPink{
+    width: 15%;
+}
+
+/* Front Page about me section */
+.aboutMe_section{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #3E3E3E;
+}
+
+.aboutMe_h3 h3{
+    color: #fff;
+    font-size: 5.5rem;
+}
+
+.paragrafConatiner_aboutUs div p{
+    color: #fff;
+    font-size: 2rem;
+    white-space: nowrap;
+}
+.paragrafConatiner_aboutUs{
+    width: 50vw;
+}
+
+.aboutMe_button button{
+    width: 10rem;
+    height: 4rem;
+    border: #fff solid;
+    background-color:#525151;
+    color: #fff;
+    font-family:"koulen" ;
+}
+
+
+.paragrafConatiner_aboutUs div{
+    border: #525151 solid 0.2rem;
+    border-radius: 20em;
+    background-color: #525151;
+    width: auto;
+    height: auto;
+    padding: 0.3rem;
+    
+}
+.whiteDots1 img{
+    width: 4rem;
+   
+}
+.whiteDots2 img{
+    width: 4rem;
+   
+}
+/* front page projects section */
+.projectSection{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.projectFront_h4 h4{
+    color: #3E3E3E;
+    font-size: 5.5rem;
+   
+}
+.projects_button button{
+    width: 10rem;
+    height: 4rem;
+    border: #3E3E3E solid;
+    background-color:#3E3E3E;
+    color: #fff;
+    font-family:"koulen" ;
+}
+
+
+/* footer */
+
+.footerSection{
+    width: 100%;
+    height: 20vh;
+    overflow: hidden;
+    background-color: #3E3E3E;
+}
+.footerSection div ol li a{
+    color: #fff;
+    font-size: 1.1rem;
+}
+.footerSection div h5{
+    color: #fff;
+    font-size: 2rem;
+}
+.footerSection div img{
+   width: 5rem;
+}
+/* front page end */
+/* projects start */
+
+.projects_section{
+    width: 100%;
+    height: 95vh;
+   overflow: hidden;
+}
+
+
+.border_projects{
+    border: #3E3E3E solid 0.1rem;
+    border-radius: 2em 2em 0 0;
+    background-color: #3E3E3E;
+   
+}
+.border_projects h2{
+    color: #fff;
+    text-shadow: none;
+}
+.border_projects ol li p{
+    color: #fff;
+    opacity: 70%;
+   
+}
+
+.dragonNest_container img{
+    width: 25rem;
+    border-radius: 2em 2em 0 0 ;
+}
+
+.baks_container img{
+    width: 25rem;
+   border-radius: 2em 2em 0 0 ;
+}
+.coffeGuide_container img{
+    width: 25rem;
+    border-radius: 2em 2em 0 0 ;
+    
+}
+.baks_container  {
+    box-shadow: 1rem 1rem 1rem #525151;
+}
+
+.coffeGuide_container  {
+    box-shadow: 1rem 1rem 1rem #525151;
+}
+.computerWebsite_container  {
+    box-shadow: 1rem 1rem 1rem #525151;
+}
+.dragonNest_container  {
+    box-shadow: 1rem 1rem 1rem #525151;
+}
+.computerWebsite_container img{
+    width: 25rem;
+    border-radius: 2em 2em 0 0 ;
+}
+.projects_h1 h1{
+    font-size: 5.5rem;
+}
+
+/* start about me page */
+
+.andreasReal_pictureContainer img{
+    width: 11rem;
+    
+}
+
+.aboutMe_pageSection{
+    width: 100%;
+    height: 40vh;
+    background-color: #3E3E3E;
+}
+.aboutMe_section2{
+    width: 100%;
+    height: 80vh;
+}
+.aboutMe_textContainer h1{
+    color: #fff;
+    font-size: 4rem;
+}
+.aboutMe_textContainer p{
+    color: #fff;
+}
+.experience_container{
+    width: 30vw;
+    height: 62vh;
+    background-color: #3E3E3E;
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem 1rem #525151;
+}
+.experience_container h2{
+   color: #fff;
+   font-size: 3rem;
+}
+.experience_container p{
+   color: #fff;
+}
+.projectCount_container{
+    width: 30vw;
+    height: 30vh;
+    background-color: #3E3E3E;
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem 1rem #525151;
+}
+.projectCount_container h3{
+   color: #fff;
+   font-size: 3rem;
+}
+.projectCount_container h4{
+   color: #fff;
+   font-size: 1.5rem;
+}
+.projectCount_container p{
+   color: #fff;
+   font-size: 6rem;
+}
+.skilles_container{
+    width: 30vw;
+    height: 30vh;
+    background-color: #3E3E3E;
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem 1rem #525151;
+}
+.skilles_container h5{
+   color: #fff;
+   font-size: 3rem;
+}
+.skillesLi_container ol li p{
+   color: #fff;
+   font-size: 1rem;
+   border:#525151 solid 1rem;
+   background-color: #525151;
+   border-radius: 2rem;
+   width: 1.4rem;
+  
+  
+}
+.projectCount_container:hover{
+    width: 33vw;
+    height: 33vh;
+    background-color: #CA8728;
+}
+.skilles_container:hover{
+    width: 33vw;
+    height: 33vh;
+    background-color: #CA8728;
+}
+.skilles_container:hover > div ol li p{
+    border-color: #9f620c;
+    background-color: #9f620c;
+}
+.experience_container:hover{
+    width: 33vw;
+    height: 65vh;
+    background-color: #CA8728;
+}
+
+/* flexbox positioner */
+.col_row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.col_rowLeft{
+    display: flex;
+    justify-content:left;
+    flex-direction: row;
+}
+.col_row_nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.col_column{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.col_columnCenter{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.col_column{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+   
+}
+.col_rowMid{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.col_row_even{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+
+/* css that is used more global */
+h1,h2,h3,h4,h5{
+    font-family:"koulen";
+    color: #3E3E3E;
+    text-shadow: 0.3rem 0.3rem 0.3rem #797979;
+}
+
+p{
+    font-family:"abel";
+    color: #3E3E3E;
+}
+
+/* hover effekt */
+ ul li a:hover{
+    color: #CA8728;
+ }
+
+ .footerSection div ol li a:hover{
+    color: #CA8728;
+ }
+button:hover{
+    background-color: #CA8728;
+
+}
+
+.border_projects:hover img{
+    width: 27rem;
+}
+
+.andreasReal_pictureContainer2{
+    display:none;
+}
+
+
+.andreasBeige{
+    position:absolute;
+    bottom: 0;
+}
+.andreasBlue{
+    position:absolute;
+    bottom: 0;
+    left: 35vw;
+   
+    
+}
+.andreasPink{
+    
+    position: absolute;
+    bottom: 0;
+    left: 59vw;
+}
+
+}
+@media(max-width:1199px){
+
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .process_button{
+        width: 10rem;
+        height: 4rem;
+        border: #fff solid;
+        background-color:#525151;
+        color: #fff;
+        font-family:"koulen" ;
+    }
+    .process_button:hover{
+       background-color: #CA8728;
+    }
+    .process_button a{
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        top: 1rem;
+        font-size: 0.8rem;
+    }
+    .baksProcess_container{
+        width: 100%;
+        height: 50vh;
+        overflow: hidden;
+    }
+    .baks_imgText_container{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        background-color: #3E3E3E;
+    }
+    .baksFirst_container img{
+        width:30rem;
+    }
+    .baksFirst_container div h2{
+        color: #fff;
+        font-size: 4rem
+    }
+    .baksFirst_container div p{
+        color: #fff;
+        font-size: 0.8rem;
+    }
+    .baksProcess_container h1{
+        font-size: 5.5rem
+    }
+    
+    .letsTalk_section{
+        width: 100%;
+        height: 75vh;
+        overflow: hidden;
+    }
+    
+    .letsTalk_section div{
+        width: 20rem;
+        height: 17rem;
+        background-color: #3E3E3E;
+        border-radius: 2rem;
+        box-shadow: 1rem 1rem 1rem #525151;
+        margin-top: 20vh;
+        
+    }
+    .linkin a img{
+        width: 6rem;
+    }
+    .instagram a img{
+        width: 8rem;
+    }
+    .gMail a img{
+        width: 8rem;
+    }
+    .gMail a img:hover{
+        width: 9rem;
+        
+    }
+    .gMail:hover{
+        box-shadow: 1rem 1rem 1rem #CA8728;
+        width: 26rem;
+        height: 23rem;
+        
+    }
+    .instagram a img:hover{
+        width: 9rem;
+        
+    }
+    .instagram:hover{
+        box-shadow: 1rem 1rem 1rem #CA8728;
+        width: 26rem;
+        height: 23rem;
+        
+    }
+    .linkin a img:hover{
+        width: 9rem;
+        
+    }
+    .linkin:hover{
+        box-shadow: 1rem 1rem 1rem #CA8728;
+        width: 26rem;
+        height: 23rem;
+        
+    }
+    .burger-menu {
+        display: none; 
+        cursor: pointer;
+    }
+    .andreasBeige{
+        position:absolute;
+        bottom: 0;
+    }
+    .andreasBlue{
+        position:absolute;
+        bottom: 0;
+        left: 35vw;
+       
+        
+    }
+    .andreasPink{
+        
+        position: absolute;
+        bottom: 0;
+        left: 59vw;
+    }
+    
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #3E3E3E;
+        margin: 6px 0;
+    }
+    
+    /* navbar css */
+    .logo{
+        width: 30%;
+    }
+    li a{
+        font-family: "koulen";
+        text-decoration: none;
+        color: #3E3E3E;
+        font-size: 1.5rem;
+        text-shadow: 0.3rem 0.3rem 0.3rem #797979;
+        
+    }
+    li{
+        list-style-type: none;
+        padding-right: 1.5rem;
+        
+        
+    
+    }
+    
+    .talk_link{
+        border: solid #3E3E3E 0.3rem;
+        border-radius: 20em;
+        position: relative;
+        bottom: 1vh;
+        background-color: #3E3E3E ;
+        
+    
+       
+    }
+    .talk_link a{
+        color: #fff;
+        position: relative;
+        left: 1vw;
+    }
+    /* front page introduction style */
+    .frontPage_section{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+      
+    }
+    .frontPage_h1 h1{
+        font-size: 5.5rem;
+        letter-spacing: 0.9rem;
+        
+    }
+    
+    .scrollTekst h2{
+        font-size: 5.5rem;
+        bottom: 2vh;
+        letter-spacing: 0.9rem;
+        transform: rotate(90deg);
+        white-space: nowrap;
+    }
+    .andreasBeige{
+        width: 30%;
+    }
+    .andreasBlue{
+        width: 20%;
+    }
+    .andreasPink{
+        width: 15%;
+    }
+    
+    /* Front Page about me section */
+    .aboutMe_section{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        background-color: #3E3E3E;
+    }
+    
+    .aboutMe_h3 h3{
+        color: #fff;
+        font-size: 5.5rem;
+    }
+    
+    .paragrafConatiner_aboutUs div p{
+        color: #fff;
+        font-size: 1.5rem;
+        white-space: nowrap;
+    }
+    .paragrafConatiner_aboutUs{
+        width: 40vw;
+    }
+    
+    .aboutMe_button button{
+        width: 10rem;
+        height: 4rem;
+        border: #fff solid;
+        background-color:#525151;
+        color: #fff;
+        font-family:"koulen" ;
+    }
+    
+    .paragrafConatiner_aboutUs div{
+        border: #525151 solid 0.2rem;
+        border-radius: 20em;
+        background-color: #525151;
+        width: auto;
+        height: auto;
+        padding: 0.3rem;
+        
+    }
+    .whiteDots1 img{
+        width: 4rem;
+       
+    }
+    .whiteDots2 img{
+        width: 4rem;
+       
+    }
+    /* front page projects section */
+    .projectSection{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .projectFront_h4 h4{
+        color: #3E3E3E;
+        font-size: 5.5rem;
+       
+    }
+    .projects_button button{
+        width: 10rem;
+        height: 4rem;
+        border: #3E3E3E solid;
+        background-color:#3E3E3E;
+        color: #fff;
+        font-family:"koulen" ;
+    }
+    
+    
+    /* footer */
+    
+    .footerSection{
+        width: 100%;
+        height: 20vh;
+        overflow: hidden;
+        background-color: #3E3E3E;
+    }
+    .footerSection div ol li a{
+        color: #fff;
+        font-size: 1.1rem;
+    }
+    .footerSection div h5{
+        color: #fff;
+        font-size: 2rem;
+    }
+    .footerSection div img{
+       width: 5rem;
+    }
+    /* front page end */
+    /* projects start */
+    
+    .projects_section{
+        width: 100%;
+        height: 95vh;
+       overflow: hidden;
+    }
+    
+    
+    .border_projects{
+        border: #3E3E3E solid 0.1rem;
+        border-radius: 2em 2em 0 0;
+        background-color: #3E3E3E;
+       
+    }
+    .border_projects h2{
+        color: #fff;
+        text-shadow: none;
+    }
+    .border_projects ol li p{
+        color: #fff;
+        opacity: 70%;
+       
+    }
+    
+    .dragonNest_container img{
+        width: 25rem;
+        border-radius: 2em 2em 0 0 ;
+    }
+    
+   
+    .baks_container img{
+        width: 25rem;
+       border-radius: 2em 2em 0 0 ;
+    }
+    .coffeGuide_container img{
+        width: 25rem;
+        border-radius: 2em 2em 0 0 ;
+    }
+    .computerWebsite_container img{
+        width: 25rem;
+        border-radius: 2em 2em 0 0 ;
+    }
+    .projects_h1 h1{
+        font-size: 5.5rem;
+    }
+    .baks_container  {
+        box-shadow: 1rem 1rem 1rem #525151;
+    }
+    .coffeGuide_container  {
+        box-shadow: 1rem 1rem 1rem #525151;
+    }
+    .computerWebsite_container  {
+        box-shadow: 1rem 1rem 1rem #525151;
+    }
+    .dragonNest_container  {
+        box-shadow: 1rem 1rem 1rem #525151;
+    }
+    /* start about me page */
+    
+    .andreasReal_pictureContainer img{
+        width: 11rem;
+        
+    }
+
+    
+    .aboutMe_pageSection{
+        width: 100%;
+        height: 40vh;
+        background-color: #3E3E3E;
+    }
+    .aboutMe_section2{
+        width: 100%;
+        height: 80vh;
+    }
+    .aboutMe_textContainer h1{
+        color: #fff;
+        font-size: 4rem;
+    }
+    .aboutMe_textContainer p{
+        color: #fff;
+    }
+    .projectCount_container:hover{
+        width: 33vw;
+        height: 33vh;
+        background-color: #CA8728;
+    }
+    .skilles_container:hover{
+        width: 33vw;
+        height: 33vh;
+        background-color: #CA8728;
+    }
+    .skilles_container:hover > div ol li p{
+        border-color: #9f620c;
+        background-color: #9f620c;
+    }
+    .experience_container:hover{
+        width: 33vw;
+        height: 65vh;
+        background-color: #CA8728;
+    }
+    .experience_container{
+        width: 30vw;
+        height: 62vh;
+        background-color: #3E3E3E;
+        border-radius: 2rem;
+        box-shadow: 1rem 1rem 1rem #525151;
+    }
+    .experience_container h2{
+       color: #fff;
+       font-size: 3rem;
+    }
+    .experience_container p{
+       color: #fff;
+    }
+    .projectCount_container{
+        width: 30vw;
+        height: 30vh;
+        background-color: #3E3E3E;
+        border-radius: 2rem;
+        box-shadow: 1rem 1rem 1rem #525151;
+    }
+    .projectCount_container h3{
+       color: #fff;
+       font-size: 3rem;
+    }
+    .projectCount_container h4{
+       color: #fff;
+       font-size: 1.5rem;
+    }
+    .projectCount_container p{
+       color: #fff;
+       font-size: 6rem;
+    }
+    .skilles_container{
+        width: 30vw;
+        height: 30vh;
+        background-color: #3E3E3E;
+        border-radius: 2rem;
+        box-shadow: 1rem 1rem 1rem #525151;
+       
+       
+    }
+    .skilles_container h5{
+       color: #fff;
+       font-size: 3rem;
+    }
+    .skillesLi_container ol li p{
+       color: #fff;
+       font-size: 1rem;
+       border:#525151 solid 1rem;
+       background-color: #525151;
+       border-radius: 2rem;
+       width: 1.4rem;
+       display: flex;
+       flex-wrap: wrap;
+       margin-left: -0.5rem;
+       margin-right: -0.5rem;
+      
+      
+    }
+    .skillesLi_container{
+        max-width: 30vw; 
+    }
+    
+    /* flexbox positioner */
+    .col_row{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .col_row_nav{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .col_rowLeft{
+        display: flex;
+        justify-content:left;
+        flex-direction: row;
+    }
+    
+    .col_column{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .col_columnCenter{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .col_column{
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+       
+    }
+    .col_rowMid{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .col_row_even{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    
+    }
+    
+    /* css that is used more global */
+    h1,h2,h3,h4,h5{
+        font-family:"koulen";
+        color: #3E3E3E;
+        text-shadow: 0.3rem 0.3rem 0.3rem #797979;
+    }
+    
+    p{
+        font-family:"abel";
+        color: #3E3E3E;
+    }
+    
+    /* hover effekt */
+     ul li a:hover{
+        color: #CA8728;
+     }
+    
+     .footerSection div ol li a:hover{
+        color: #CA8728;
+     }
+    button:hover{
+        background-color: #CA8728;
+    
+    }
+    
+    .border_projects:hover img{
+        width: 27rem;
+    }
+    .andreasReal_pictureContainer2{
+        display:none;
+    }
+}
+
+
+
+
+
+
+
+@media(max-width:959px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .process_button{
+        width: 10rem;
+        height: 4rem;
+        border: #fff solid;
+        background-color:#525151;
+        color: #fff;
+        font-family:"koulen" ;
+    }
+    .process_button:hover{
+       background-color: #CA8728;
+    }
+    .process_button a{
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        top: 1rem;
+        font-size: 0.8rem;
+    }
+    .baksProcess_container{
+        width: 100%;
+        height: 50vh;
+        overflow: hidden;
+    }
+    .baks_imgText_container{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        background-color: #3E3E3E;
+    }
+    .baksFirst_container img{
+        width:30rem;
+    }
+    .baksFirst_container div h2{
+        color: #fff;
+        font-size: 3rem
+    }
+    .baksFirst_container div p{
+        color: #fff;
+        font-size: 0.8rem;
+    }
+    .baksProcess_container h1{
+        font-size: 5.5rem
+    }
+    
+    .letsTalk_section{
+        width: 100%;
+        height: 150vh;
+        overflow: hidden;
+    }
+   
+    .letsTalk_section div{
+        width: 20rem;
+        height: 20rem;
+        background-color: #3E3E3E;
+        border-radius: 2rem;
+        box-shadow: 1rem 1rem 1rem #525151;
+        margin-top: 0rem;
+        
+    }
+    .linkin a img{
+        width: 6rem;
+    }
+    .instagram a img{
+        width: 8rem;
+    }
+    .gMail a img{
+        width: 8rem;
+    }
+    .gMail a img:hover{
+        width: 9rem;
+        
+    }
+    .gMail:hover{
+        box-shadow: 1rem 1rem 1rem #CA8728;
+        width: 22rem;
+        height: 22rem;
+        
+    }
+    .instagram a img:hover{
+        width: 9rem;
+        
+    }
+    .instagram:hover{
+        box-shadow: 1rem 1rem 1rem #CA8728;
+        width: 22rem;
+        height: 22rem;
+        
+    }
+    .linkin a img:hover{
+        width: 9rem;
+        
+    }
+    .linkin:hover{
+        box-shadow: 1rem 1rem 1rem #CA8728;
+        width: 22rem;
+        height: 22rem;
+        
+    }
+    /* navbar css */
+    .logo{
+        width: 30%;
+    }
+    li a{
+        font-family: "koulen";
+        text-decoration: none;
+        color: #3E3E3E;
+        font-size: 1.5rem;
+        text-shadow: 0.3rem 0.3rem 0.3rem #797979;
+        
+    }
+    li{
+        list-style-type: none;
+        padding-right: 1.5rem;
+        
+        
+    
+    }
+    
+    .talk_link{
+        border: solid #3E3E3E 0.3rem;
+        border-radius: 20em;
+        position: relative;
+        bottom: 1vh;
+        background-color: #3E3E3E ;
+        
+    
+       
+    }
+    .talk_link a{
+        color: #fff;
+        position: relative;
+        left: 1vw;
+    }
+    /* front page introduction style */
+    .frontPage_section{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+      
+    }
+    .frontPage_h1 h1{
+        font-size: 5.5rem;
+        letter-spacing: 0.9rem;
+        
+    }
+    
+    .scrollTekst h2{
+        font-size: 5.5rem;
+        bottom: 2vh;
+        letter-spacing: 0.9rem;
+        transform: rotate(90deg);
+        white-space: nowrap;
+    }
+    .andreasBeige{
+        position:absolute;
+        bottom: 0;
+    }
+    .andreasBlue{
+        position:absolute;
+        bottom: 0;
+        left: 35vw;
+       
+        
+    }
+    .andreasPink{
+        width: 15%;
+        display: none;
+        
+    }
+    
+    /* Front Page about me section */
+    .aboutMe_section{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        background-color: #3E3E3E;
+    }
+    
+    .aboutMe_h3 h3{
+        color: #fff;
+        font-size: 5.5rem;
+    }
+    
+    .paragrafConatiner_aboutUs div p{
+        color: #fff;
+        font-size: 2rem;
+        white-space: nowrap;
+    }
+    .paragrafConatiner_aboutUs{
+        width: 50vw;
+    }
+    
+    .aboutMe_button button{
+        width: 10rem;
+        height: 4rem;
+        border: #fff solid;
+        background-color:#525151;
+        color: #fff;
+        font-family:"koulen" ;
+    }
+    
+    .paragrafConatiner_aboutUs div{
+        border: #525151 solid 0.2rem;
+        border-radius: 20em;
+        background-color: #525151;
+        width: auto;
+        height: auto;
+        padding: 0.3rem;
+        
+    }
+    .whiteDots1 img{
+        width: 4rem;
+       
+    }
+    .whiteDots2 img{
+        width: 4rem;
+       
+    }
+    /* front page projects section */
+    .projectSection{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .projectFront_h4 h4{
+        color: #3E3E3E;
+        font-size: 5.5rem;
+       
+    }
+    .projects_button button{
+        width: 10rem;
+        height: 4rem;
+        border: #3E3E3E solid;
+        background-color:#3E3E3E;
+        color: #fff;
+        font-family:"koulen" ;
+    }
+    
+    
+    /* footer */
+    
+    .footerSection{
+        width: 100%;
+        height: 20vh;
+        overflow: hidden;
+        background-color: #3E3E3E;
+    }
+    .footerSection div ol li a{
+        color: #fff;
+        font-size: 1.1rem;
+    }
+    .footerSection div h5{
+        color: #fff;
+        font-size: 2rem;
+    }
+    .footerSection div img{
+       width: 5rem;
+    }
+    /* front page end */
+    /* projects start */
+    
+    .projects_section{
+        width: 100%;
+        height: 95vh;
+       overflow: hidden;
+    }
+    
+    
+    .border_projects{
+        border: #3E3E3E solid 0.1rem;
+        border-radius: 2em 2em 0 0;
+        background-color: #3E3E3E;
+       
+    }
+    .border_projects h2{
+        color: #fff;
+        text-shadow: none;
+    }
+    .border_projects ol li p{
+        color: #fff;
+        opacity: 70%;
+       
+    }
+    
+    .dragonNest_container img{
+        width: 25rem;
+        border-radius: 2em 2em 0 0 ;
+    }
+    
+    .baks_container img{
+        width: 25rem;
+       border-radius: 2em 2em 0 0 ;
+    }
+    .coffeGuide_container img{
+        width: 25rem;
+        border-radius: 2em 2em 0 0 ;
+    }
+    .computerWebsite_container img{
+        width: 25rem;
+        border-radius: 2em 2em 0 0 ;
+    }
+    .projects_h1 h1{
+        font-size: 5.5rem;
+    }
+    .baks_container  {
+        box-shadow: 1rem 1rem 1rem #525151;
+    }
+    .coffeGuide_container  {
+        box-shadow: 1rem 1rem 1rem #525151;
+    }
+    .computerWebsite_container  {
+        box-shadow: 1rem 1rem 1rem #525151;
+    }
+    .dragonNest_container  {
+        box-shadow: 1rem 1rem 1rem #525151;
+    }
+    /* start about me page */
+    
+    .andreasReal_pictureContainer img{
+        width: 11rem;
+        
+    }
+    .andreasReal_pictureContainer2 img{
+        width: 10rem;
+    }
+    .aboutMe_pageSection{
+        width: 100%;
+        height: 40vh;
+        background-color: #3E3E3E;
+    }
+    .aboutMe_section2{
+        width: 100%;
+        height: 80vh;
+    }
+    .aboutMe_textContainer h1{
+        color: #fff;
+        font-size: 4rem;
+    }
+    .aboutMe_textContainer p{
+        color: #fff;
+    }
+    .experience_container{
+        width: 30vw;
+        height: 62vh;
+        background-color: #3E3E3E;
+        border-radius: 2rem;
+        box-shadow: 1rem 1rem 1rem #525151;
+    }
+    .experience_container h2{
+       color: #fff;
+       font-size: 3rem;
+    }
+    .experience_container p{
+       color: #fff;
+    }
+    .projectCount_container{
+        width: 30vw;
+        height: 30vh;
+        background-color: #3E3E3E;
+        border-radius: 2rem;
+        box-shadow: 1rem 1rem 1rem #525151;
+    }
+    .projectCount_container h3{
+       color: #fff;
+       font-size: 3rem;
+    }
+    .projectCount_container h4{
+       color: #fff;
+       font-size: 1.5rem;
+    }
+    .projectCount_container p{
+       color: #fff;
+       font-size: 6rem;
+    }
+    .skilles_container{
+        width: 30vw;
+        height: 30vh;
+        background-color: #3E3E3E;
+        border-radius: 2rem;
+        box-shadow: 1rem 1rem 1rem #525151;
+       
+       
+    }
+    .skilles_container h5{
+       color: #fff;
+       font-size: 3rem;
+    }
+    .skillesLi_container ol li p{
+       color: #fff;
+       font-size: 1rem;
+       border:#525151 solid 1rem;
+       background-color: #525151;
+       border-radius: 2rem;
+       width: 1.4rem;
+       display: flex;
+       flex-wrap: wrap;
+       margin-left: -0.5rem;
+       margin-right: -0.5rem;
+      
+      
+    }
+    .skillesLi_container{
+        max-width: 30vw; 
+    }
+    
+    /* flexbox positioner */
+    .col_row{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .col_row_nav{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .col_rowLeft{
+        display: flex;
+        justify-content:left;
+        flex-direction: row;
+    }
+    
+    .col_column{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .col_columnCenter{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .col_column{
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+       
+    }
+    .col_rowMid{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .col_row_even{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    
+    }
+    .col_talk{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /* css that is used more global */
+    h1,h2,h3,h4,h5{
+        font-family:"koulen";
+        color: #3E3E3E;
+        text-shadow: 0.3rem 0.3rem 0.3rem #797979;
+    }
+    
+    p{
+        font-family:"abel";
+        color: #3E3E3E;
+    }
+    
+    /* hover effekt */
+     ul li a:hover{
+        color: #CA8728;
+     }
+    
+     .footerSection div ol li a:hover{
+        color: #CA8728;
+     }
+    button:hover{
+        background-color: #CA8728;
+    
+    }
+    
+    .border_projects:hover img{
+        width: 27rem;
+    }
+    .col_column_mobil{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .paragrafConatiner_aboutUs div{
+        position: relative;
+        margin-top: 1rem;
+        width: 40vw;
+        left: 10vw;
+      
+    }
+    .paragrafConatiner_aboutUs div p{
+        font-size: 1.5rem;
+      
+    }
+    .whiteDots1{
+        display: none;
+    }
+    .whiteDots2{
+        display: none;
+    }
+    .projects_section{
+        width: 100%;
+        height: 200vh;
+       overflow: hidden;
+    }
+    .border_projects_marginTop{
+        margin-top: 2vh
+    }
+    .border_projects_marginBottom{
+        margin-top: 2vh;
+    }
+
+   .col_row_mobil{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   }
+
+    .col_rowCenter_mobil{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .col_columnCenter_mobil{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .andreasReal_pictureContainer{
+        display:none;
+    }
+    .andreasReal_pictureContainer2{
+        display:block;
+    }
+    .grid_1-1{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+    .andreasReal_pictureContainer2{
+        width: 45vw;
+        height: 62vh;
+        background-color: #3E3E3E;
+        border-radius: 2rem;
+        box-shadow: 1rem 1rem 1rem #525151;
+    }
+    .andreasReal_pictureContainer2:hover{
+        width: 45vw;
+        height: 62vh;
+        background-color: #CA8728;
+        
+    }
+    .experience_container:hover{
+        width: 45vw;
+        height: 62vh;
+        background-color: #CA8728;
+        
+    }
+    .projectCount_container:hover{
+        width: 45vw;
+        height: 30vh;
+        background-color: #CA8728;
+        
+    }
+    .skilles_container:hover{
+        width: 45vw;
+        height: 30vh;
+        background-color: #CA8728;
+        
+    }
+    .skilles_container:hover > div ol li p{
+        border-color: #9f620c;
+        background-color: #9f620c;
+    }
+    .experience_container{
+        width: 45vw;
+        height: 62vh;
+        background-color: #3E3E3E;
+        border-radius: 2rem;
+        box-shadow: 1rem 1rem 1rem #525151;
+    }
+    .projectCount_container{
+        width: 45vw;
+        height: 30vh;
+        background-color: #3E3E3E;
+        border-radius: 2rem;
+        box-shadow: 1rem 1rem 1rem #525151;
+    }
+    .skilles_container{
+        width: 45vw;
+        height: 30vh;
+        background-color: #3E3E3E;
+        border-radius: 2rem;
+        box-shadow: 1rem 1rem 1rem #525151;
+       
+       
+    }
+    .aboutMe_section2{
+        width: 100%;
+        height: 140vh;
+        
+    }
+    .burger-menu {
+        display: block; 
+    }
+
+    nav {
+        display: none; 
+    }
+
+    nav.active {
+        display: block; 
+    }
+   
+
+    .desktop-nav .col_column_mobil_nav{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .talk_link{
+        
+        background-color: transparent;
+        border: solid 0rem transparent;
+    }
+    .talk_link a{
+        color: #3E3E3E;
+        
+    }
+    .burger-menu {
+        display: block;
+        transition: transform 0.3s; /* Add transition for smoother rotation */
+    }
+
+   
+}
+
+
+
+    
+   
+  
+
+@media(max-width:750px){
+    .baksProcess_container div h1{
+        font-size: 4.5rem;
+    }
+    .baksFirst_container img{
+        width:20rem;
+    }
+    .andreasBlue{
+        display: none;
+    }
+    .andreasBeige{
+        width: 30rem;
+        
+    }
+    .scrollTekst h2{
+        font-size: 3rem;
+    }
+    .frontPage_h1 h1{
+        font-size: 3rem;
+    }
+    .desktop-nav .navbar li a{
+        font-size: 1.2rem;
+    }
+    .skillesLi_container ol li p{
+        font-size: 0.8rem;
+        background-color: transparent;
+    }
+    .skillesLi_container ol li p {
+        
+        border:transparent solid 1rem;
+        background-color: transparent;
+        
+        width: 1.4rem;
+        margin: -1rem;
+    }
+    
+}
+@media(max-width:420px){
+    .andreasBeige {
+        width: 10rem;
+    }
+    .frontPage_h1 h1{
+        font-size: 2rem;
+    }
+    .scrollTekst h2{
+        position: relative;
+        font-size: 2rem;
+        left: 10vw;
+        top: 6vh;
+    }
+    .frontPage_section{
+        width: 100%;
+        height: 70vh;
+        overflow: hidden;
+      
+    }
+    .footerSection .projects_footer .paragrafConatiner_aboutUs div p{
+        font-size: 1rem;
+    }
+    .footerSection .projects_footer h5{
+        font-size: 1.3rem;
+    }
+    .footerSection .projects_footer ol li a{
+        font-size: 0.7rem;
+    }
+    .footerSection .frontPage_footer .paragrafConatiner_aboutUs div p{
+        font-size: 1rem;
+    }
+    .footerSection .frontPage_footer h5{
+        font-size: 1.3rem;
+    }
+    .footerSection .frontPage_footer ol li a{
+        font-size: 0.7rem;
+    }
+    .footerSection .aboutMe_footer .paragrafConatiner_aboutUs div p{
+        font-size: 1rem;
+    }
+    .footerSection .aboutMe_footer h5{
+        font-size: 1.3rem;
+    }
+    .footerSection .aboutMe_footer ol li a{
+        font-size: 0.7rem;
+    }
+    .paragrafConatiner_aboutUs div p{
+        font-size: 1rem;
+    }
+    .desktop-nav .navbar li a{
+        font-size: 0.7rem;
+    }
+    .projectsBox_contianer .baks_container img{
+        width: 15rem;
+    }
+    .projectsBox_contianer .baks_container {
+        width: 15rem;
+    }
+    .projectsBox_contianer .baks_container h2{
+        font-size: 1rem;
+    }
+    .projectsBox_contianer .baks_container .projectInfo li p{
+        font-size: 0.5rem;
+    }
+    .projectsBox_contianer .dragonNest_container img{
+        width: 15rem;
+    }
+    .projectsBox_contianer .dragonNest_container {
+        width: 15rem;
+    }
+    .projectsBox_contianer .dragonNest_container h2{
+        font-size: 1rem;
+    }
+    .projectsBox_contianer .dragonNest_container .projectInfo li p{
+        font-size: 0.5rem;
+    }
+
+    
+    .projectsBox2_contianer .coffeGuide_container img{
+        width: 15rem;
+    }
+    .projectsBox2_contianer .coffeGuide_container {
+        width: 15rem;
+    }
+    .projectsBox2_contianer .coffeGuide_container h2{
+        font-size: 1rem;
+    }
+    .projectsBox2_contianer .coffeGuide_container .projectInfo li p{
+        font-size: 0.5rem;
+    }
+    .projectsBox2_contianer .computerWebsite_container img{
+        width: 15rem;
+    }
+    .projectsBox2_contianer .computerWebsite_container {
+        width: 15rem;
+    }
+    .projectsBox2_contianer .computerWebsite_container h2{
+        font-size: 1rem;
+    }
+    .projectsBox2_contianer .computerWebsite_container .projectInfo li p{
+        font-size: 0.5rem;
+    }
+    .projects_section .projects_h1 h1{
+        font-size: 4.5rem;
+    }
+    .projects_section{
+        width: 100%;
+        height: 125vh;
+       overflow: hidden;
+    }
+    .aboutMe_pageSection .aboutMe_textContainer h1{
+        font-size: 3rem;
+    }
+    .aboutMe_pageSection .aboutMe_textContainer p{
+        font-size: 0.8rem;
+    }
+    .experience_container h2{
+        font-size: 1.5rem;
+    }
+    .experience_container{
+        width: 80vw;
+        position: relative;
+        left: 2vw;
+    }
+    .andreasReal_pictureContainer2{
+        display: none;
+    }
+   .aboutMe_smallBox .skilles_container h5{
+        font-size: 2rem;
+    }
+    .skilles_container{
+        width: 80vw;
+        height: 30vh;
+        background-color: #3E3E3E;
+        border-radius: 2rem;
+        box-shadow: 1rem 1rem 1rem #525151;
+        position: relative;
+        
+    }
+    .projectCount_container{
+        width: 80vw;
+        height: 30vh;
+        background-color: #3E3E3E;
+        border-radius: 2rem;
+        box-shadow: 1rem 1rem 1rem #525151;
+        position: relative;
+        left: 2vw;
+    }
+    .col_lastChange{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .aboutMe_section2 .aboutMe_smallBox .projectCount_container h3{
+        font-size: 2rem;
+    }
+
+    .aboutMe_section2 .aboutMe_smallBox .projectCount_container h4{
+        font-size: 1rem;
+       
+    }
+    .aboutMe_section2 .aboutMe_smallBox .projectCount_container p{
+        font-size: 5.5rem;
+       
+    }
+    
+}

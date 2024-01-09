@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andreas Sage Amadeu</title>
+    <link rel="icon" href="./img/logo.png" type="image/icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/layout.css">
+</head>
+
+<body>
+    <header>
+        <section class="navbar col_row">
+            <div class="logo_container">
+                <a href="index.html">
+                    <img class="logo" src="./img/logo.png" alt="logo with the letters A2XS">
+                </a>
+            </div>
+            <nav class="desktop-nav ">
+                <ul class="navbar col_row_nav .col_column_mobil_nav">
+                    <li>
+                        <a href="index.html">Front Page</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="about_me.html">About Me</a>
+                    </li>
+                    <li class="talk_link">
+                        <a href="talk_me.html">Let's Talk</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+
+            <div class="burger-menu" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+
+        </section>
+
+    </header>
+    <main>
+        <section class="frontPage_section grid_1-3">
+            <div class="frontPage_h1">
+                <h1>HEY, I'M ANDREAS</h1>
+            </div>
+            <div class="frontPage_pictures">
+                <img class="andreasBeige" src="./img/andreas_figur1.svg"
+                    alt="a figure with dots that looks like a person">
+                <img class="andreasBlue" src="./img/andreas_figur2.svg"
+                    alt="a figure with dots that looks like a person">
+                <img class="andreasPink" src="./img/andreas_figur3.svg"
+                    alt="a figure with dots that looks like a person">
+            </div>
+            <div class="scrollTekst">
+                <h2>SROLL DOWN ></h2>
+            </div>
+        </section>
+        <section class="aboutMe_section col_columnCenter">
+            <div class="aboutMe_h3">
+                <h3>About Me</h3>
+            </div>
+            <div class="paragrafConatiner_aboutUs col_row col_column_mobil ">
+                <div>
+                    <p>I'M A DESIGNER</p>
+                </div>
+                <div>
+                    <p>I'M A UX/UI DESIGNER</p>
+                </div>
+                <div>
+                    <p>I'M A CODER</p>
+                </div>
+            </div>
+            <div class="aboutMe_button">
+                <button onclick="window.location.href='about_me.html';">Learn about me</button>
+            </div>
+            <div>
+                <div class="whiteDots1 ">
+                    <img src="./img/white_dots.svg" alt="">
+                </div>
+                <div class="whiteDots2">
+                    <img src="./img/white_dots.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="projectSection col_columnCenter">
+            <div class="projectFront_h4">
+                <h4>Projects</h4>
+            </div>
+            <div class="projects_button">
+                <button onclick="window.location.href='projects.html';">Learn about me</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footerSection col_row_even">
+            <div class="footer_logo">
+                <a href="index.html">
+                    <img src="./img/logo_white3.png" alt="logo in white with the text A2XS">
+                </a>
+            </div>
+
+            <div class="frontPage_footer">
+                <h5> FRONT PAGE</h5>
+                <ol>
+                    <li><a href="index.html">ABOUT ME</a></li>
+                    <li><a href="index.html">PROJECTS</a></li>
+                </ol>
+            </div>
+            <div class="aboutMe_footer">
+                <h5> ABOUT ME</h5>
+                <ol>
+                    <li><a href="about_me.html">SKILL SET</a></li>
+                    <li><a href="about_me.html">ME AS A PERSON</a></li>
+                </ol>
+            </div>
+            <div class="projects_footer">
+                <h5> PROJECTS</h5>
+                <ol>
+                    <li><a href="projects.html">KAFFE WEBSITE</a></li>
+                    <li><a href="projects.html">BAK'S WEBSITE</a></li>
+                    <li><a href="projects.html">DRAGON GAME</a></li>
+                </ol>
+            </div>
+
+        </section>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,729 @@
+@media(min-width:2000px){
+    .scrollTekst{
+        grid-column: 2;
+        grid-row: 2;
+        position: relative;
+        
+        left: 16vw;
+    }
+}
+
+
+@media(min-width:1200px){
+/* layout for navbar */
+.kaffeG_projekt{
+    position: relative;
+    top: 0vh;
+}
+.computer_projekt{
+    position: relative;
+    top: 0vh;
+}
+.baksFirst_container div {
+    position: relative;
+    bottom: 7vh;
+    right: 8vw;
+}
+.process_button{
+    position: relative;
+    top: 5vh;
+    left: 0vh;
+   
+}
+.baksFirst_container img{
+    position: relative;
+    top: 5vh;
+    left: 5vw;
+    border: solid 1rem #fff;
+    border-radius: 2rem;
+}
+.navbar{
+    position: relative;
+    top: 1.8vh;
+}
+.letsTalk_section div{
+    margin-top: 10rem;
+}
+nav{
+    position: relative;
+    right: 1vh;
+}
+.logo{
+   position: relative;
+   bottom: 1.5vh; 
+}
+/* layout front page introduction */
+/* start front page */
+.frontPage_h1{
+    grid-column: 1/-1;
+    grid-row: 1;
+    position: relative;
+    bottom: 1vh;
+    left: 3vw;
+}
+
+.frontPage_pictures{
+    grid-column: 1/4;
+    grid-row: 2;
+    position: relative;
+    
+    left: 3vw;
+}
+
+.scrollTekst{
+    grid-column: 2;
+    grid-row: 2;
+    position: relative;
+    
+    left: 16vw;
+}
+
+/* layout front page about me */
+.aboutMe_button{
+    position: relative;
+    bottom: 5vh;
+}
+.aboutMe_h3{
+    position: relative;
+    bottom:25vh;
+}
+
+.paragrafConatiner_aboutUs{
+    position: relative;
+    bottom: 15vh;
+}
+
+.whiteDots1 {
+    position: absolute;
+    left: 10vw;
+}
+.whiteDots2 {
+    position: absolute;
+    right: 10vw;
+    
+}
+.whiteDots2 img {
+    position: relative;
+    bottom:60vh;
+    
+}
+/* footer layout */
+.footerSection div img{
+    position: relative;
+    right: 20vh;
+ }
+
+/* end front page */
+/* start projects page */
+.border_projects h2{
+   position: relative;
+   left: 1rem;
+}
+.border_projects ol li p{
+    position: relative;
+    left: 1rem;
+}
+
+.border_projects_marginTop{
+    position: relative;
+    bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+   
+   
+}
+.border_projects_marginBottom{
+    position: relative;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+
+}
+.projects_h1{
+    position: relative;
+    bottom: 3rem;
+}
+/* end projects layout*/
+/* start projects layout */
+.aboutMe_pageSection{
+    margin-top: 10vh;
+}
+.aboutMe_section2{
+    margin-top: 12vh;
+}
+.andreasReal_pictureContainer img{
+    position: relative;
+    bottom: 10vh;
+    margin-right: 4vw;
+}
+.smallBox1{
+    margin-top: 6vh;
+}
+.smallBox2{
+    margin-top: 3vh;
+}
+.experience_container{
+    margin-top: 6vh;
+    
+}
+.experience_container h2{
+    position: relative;
+    bottom: 5vh;
+ }
+.experience_container p{
+    position: relative;
+    bottom: 5vh;
+    margin-top: 2vh;
+ }
+.box_margin{
+    margin-left: 2vh;
+    margin-right: 1vh;
+}
+
+.aboutMe_textContainer{
+    position: relative;
+    bottom: 5.5vh;
+    margin-left: 4vw;
+}
+.projectCount_container h4{
+    position: relative;
+    bottom: 3vh;
+ }
+ .projectCount_container p{
+    position: relative;
+    bottom: 4vh;
+ }
+ .skillesLi_container ol li p{
+    position: relative;
+    bottom: 3vh;
+    left: 0.8vw;
+ }
+ .skilles_container h5{
+    position: relative;
+    bottom: 6vh;
+ }
+/* grid positioner */
+.grid_1-3{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+}
+}
+
+
+
+
+@media(max-width:1199px){
+
+    .baksFirst_container div {
+        position: relative;
+        bottom: 5vh;
+        right: 8vw;
+    }
+    .process_button{
+        position: relative;
+        top: 5vh;
+        left: 0vh;
+       
+    }
+    .baksFirst_container img{
+        position: relative;
+        top: 5vh;
+        left: 5vw;
+        border: solid 1rem #fff;
+        border-radius: 2rem;
+    }
+    /* layout for navbar */
+.navbar{
+    position: relative;
+    top: 1.8vh;
+}
+
+nav{
+    position: relative;
+    right: 1vh;
+}
+.logo{
+   position: relative;
+   bottom: 1.5vh; 
+}
+/* layout front page introduction */
+/* start front page */
+.frontPage_h1{
+    grid-column: 1/-1;
+    grid-row: 1;
+    position: relative;
+    bottom: 1vh;
+    left: 3vw;
+}
+
+.frontPage_pictures{
+    grid-column: 1/4;
+    grid-row: 2;
+    position: relative;
+    
+    left: 3vw;
+}
+
+.scrollTekst{
+    grid-column: 2;
+    grid-row: 2;
+    position: relative;
+    
+    left: 16vw;
+}
+
+/* layout front page about me */
+.aboutMe_button{
+    position: relative;
+    bottom: 5vh;
+}
+.aboutMe_h3{
+    position: relative;
+    bottom:25vh;
+}
+
+.paragrafConatiner_aboutUs{
+    position: relative;
+    bottom: 15vh;
+    right: 3vw;
+}
+
+.whiteDots1 {
+    position: absolute;
+    left: 10vw;
+}
+.whiteDots2 {
+    position: absolute;
+    right: 10vw;
+    
+}
+.whiteDots2 img {
+    position: relative;
+    bottom:60vh;
+    
+}
+/* footer layout */
+.footerSection div img{
+    position: relative;
+    right: 20vh;
+ }
+
+/* end front page */
+/* start projects page */
+.border_projects h2{
+   position: relative;
+   left: 1rem;
+}
+.border_projects ol li p{
+    position: relative;
+    left: 1rem;
+}
+
+.border_projects_marginTop{
+    position: relative;
+    bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+   
+   
+}
+.border_projects_marginBottom{
+    position: relative;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+
+}
+.projects_h1{
+    position: relative;
+    bottom: 3rem;
+}
+/* end projects layout*/
+/* start projects layout */
+.aboutMe_pageSection{
+    margin-top: 10vh;
+}
+.aboutMe_section2{
+    margin-top: 12vh;
+}
+.andreasReal_pictureContainer img{
+    position: relative;
+    bottom: 10vh;
+    margin-right: 4vw;
+}
+.smallBox1{
+    margin-top: 6vh;
+}
+.smallBox2{
+    margin-top: 3vh;
+}
+.experience_container{
+    margin-top: 6vh;
+    
+}
+.experience_container h2{
+    position: relative;
+    bottom: 5vh;
+ }
+.experience_container p{
+    position: relative;
+    bottom: 5vh;
+    margin-top: 2vh;
+ }
+.box_margin{
+    margin-left: 2vh;
+    margin-right: 1vh;
+}
+
+.aboutMe_textContainer{
+    position: relative;
+    bottom: 5.5vh;
+    margin-left: 4vw;
+}
+.projectCount_container h4{
+    position: relative;
+    bottom: 3vh;
+ }
+ .projectCount_container p{
+    position: relative;
+    bottom: 4vh;
+ }
+ .skillesLi_container ol li p{
+    position: relative;
+    bottom: 3vh;
+    left: 0.8vw;
+ }
+ .skilles_container h5{
+    position: relative;
+    bottom: 6vh;
+ }
+/* grid positioner */
+.grid_1-3{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+}
+}
+@media(max-width:1100px){
+
+    .baksFirst_container div {
+        position: relative;
+        bottom: 0vh;
+        right: 0vw;
+    }
+    .process_button{
+        position: relative;
+        top: 5vh;
+        left: 0vh;
+       
+    }
+    .baksFirst_container img{
+        position: relative;
+        top: 2vh;
+        left: 0vw;
+        border: solid 1rem #fff;
+        border-radius: 2rem;
+    }
+    /* layout for navbar */
+.navbar{
+    position: relative;
+    top: 1.8vh;
+}
+
+nav{
+    position: relative;
+    right: 1vh;
+}
+.logo{
+   position: relative;
+   bottom: 1.5vh; 
+}
+/* layout front page introduction */
+/* start front page */
+.frontPage_h1{
+    grid-column: 1/-1;
+    grid-row: 1;
+    position: relative;
+    bottom: 1vh;
+    left: 3vw;
+}
+
+.frontPage_pictures{
+    grid-column: 1/4;
+    grid-row: 2;
+    position: relative;
+    
+    
+    left: 3vw;
+}
+
+.scrollTekst{
+    grid-column: 2;
+    grid-row: 2;
+    position: relative;
+    
+    left: 23vw;
+}
+
+/* layout front page about me */
+.aboutMe_button{
+    position: relative;
+    bottom: 5vh;
+}
+.aboutMe_h3{
+    position: relative;
+    bottom:25vh;
+}
+
+.paragrafConatiner_aboutUs{
+    position: relative;
+    bottom: 15vh;
+    right: 7vw;
+}
+
+.whiteDots1 {
+    position: absolute;
+    left: 10vw;
+}
+.whiteDots2 {
+    position: absolute;
+    right: 10vw;
+    
+}
+.whiteDots2 img {
+    position: relative;
+    bottom:60vh;
+    
+}
+/* footer layout */
+.footerSection div img{
+    position: relative;
+    right: 20vh;
+ }
+
+/* end front page */
+/* start projects page */
+.border_projects h2{
+   position: relative;
+   left: 1rem;
+}
+.border_projects ol li p{
+    position: relative;
+    left: 1rem;
+}
+
+.border_projects_marginTop{
+    position: relative;
+    bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+   
+   
+}
+.border_projects_marginBottom{
+    position: relative;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+
+}
+.projects_h1{
+    position: relative;
+    bottom: 3rem;
+}
+/* end projects layout*/
+/* start projects layout */
+.aboutMe_pageSection{
+    margin-top: 10vh;
+}
+.aboutMe_section2{
+    margin-top: 12vh;
+}
+.andreasReal_pictureContainer img{
+    position: relative;
+    bottom: 10vh;
+    margin-right: 4vw;
+}
+.smallBox1{
+    margin-top: 6vh;
+}
+.smallBox2{
+    margin-top: 3vh;
+}
+.experience_container{
+    margin-top: 6vh;
+    
+}
+.experience_container h2{
+    position: relative;
+    bottom: 5vh;
+ }
+.experience_container p{
+    position: relative;
+    bottom: 5vh;
+    margin-top: 2vh;
+ }
+.box_margin{
+    margin-left: 2vh;
+    margin-right: 1vh;
+}
+
+.aboutMe_textContainer{
+    position: relative;
+    bottom: 5.5vh;
+    margin-left: 4vw;
+}
+.projectCount_container h4{
+    position: relative;
+    bottom: 3vh;
+ }
+ .projectCount_container p{
+    position: relative;
+    bottom: 4vh;
+ }
+ .skillesLi_container ol li p{
+    position: relative;
+    bottom: 3vh;
+    left: 0.8vw;
+ }
+ .skilles_container h5{
+    position: relative;
+    bottom: 6vh;
+ }
+/* grid positioner */
+.grid_1-3{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+}
+.footer_logo{
+    position: relative;
+    left: 20vh;
+}
+.col_bak{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+   
+    align-items: center ;
+    
+}
+}
+
+
+@media(max-width:959px){
+
+    .baksFirst_container div {
+        position: relative;
+       
+        
+    }
+    .process_button{
+        position: relative;
+        top: 5vh;
+       
+       
+    }
+    .baksFirst_container img{
+        position: relative;
+        
+        
+        border: solid 1rem #fff;
+        border-radius: 2rem;
+    }
+.frontPage_pictures{
+    grid-column: 1/4;
+    grid-row: 2;
+    position: relative;
+    
+    
+    left: 3vw;
+}
+.andreasBeige{
+    position:absolute;
+    bottom: 0;
+}
+.andreasBlue{
+    position:absolute;
+    bottom: 0;
+    left: 35vw;
+   
+    
+}
+.andreasPink{
+   display: none;
+    
+}
+.experience_container{
+    position: relative;
+    right: 2vh;
+}
+
+.andreasReal_pictureContainer2{
+   position: relative;
+   top: 6vh;
+   left: 1vh;
+}
+.andreasReal_pictureContainer2 img{
+   position: relative;
+   left: 12vw;
+   top: 10vh;
+}
+
+.projectCount_container{
+    position: relative;
+    right: 2vh;
+    bottom: 4vh;
+}
+.skilles_container{
+    position: relative;
+    left: 2vw;
+    bottom: 1vh;
+    right: 4vh;
+}
+.footer_logo{
+    position: relative;
+    left: 20vh;
+}
+.burger-menu{
+    position: fixed;
+    right: 4vw;
+    z-index: 10;
+}
+.desktop-nav {
+    position: fixed;
+    left: 78vw;
+   z-index: 10;
+    
+}
+.talk_link{
+    position: relative;
+    right: 2vw;
+    
+}
+.talk_link a{
+    position: relative;
+    left: 2vw;
+    top: 1vh;
+        
+}
+}
+
+@media(max-width:750px){
+  
+    .andreasBeige{
+        left: 3vw;
+        
+    }
+    .scrollTekst{
+        position: relative;
+        left: 18vw;
+        bottom: 20vh;
+    }
+}
+
+
+
+
