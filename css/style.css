@@ -11,6 +11,10 @@
     margin: 0;
     padding: 0;
 }
+.kaffeG_projekt .button2{
+    position: relative;
+    top: 6vh;
+}
 .projects_section .projectsBox2_contianer .chello{
     position: relative;
     top: 6vh;
@@ -562,6 +566,10 @@ button:hover{
     *{
         margin: 0;
         padding: 0;
+    }
+    .kaffeG_projekt .button2{
+        position: relative;
+        top: 6vh;
     }
     .projects_section .projectsBox2_contianer .chello{
         position: relative;
