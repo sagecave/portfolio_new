@@ -1784,7 +1784,7 @@ button:hover{
     }
     .burger-menu {
         display: block;
-        transition: transform 0.3s; /* Add transition for smoother rotation */
+        transition: transform 0.3s; 
     }
 
    
